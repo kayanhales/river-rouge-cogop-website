@@ -365,3 +365,160 @@ https://react.dev/link/hydration-mismatch
 [00:01:08.993] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
 [00:01:08.993] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/news","route":"/news"}
 [00:01:08.993] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/news color: rgb(120, 120, 120) color: inherit {"dp":"/news","o":"http://localhost:3000/news","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765156026367}
+[13:08:15.386] Server  LOG      ✓ Compiled in 95ms
+[13:08:18.955] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[13:08:18.955] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765203256374}
+[13:08:33.680] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="page.tsx">
+                <SegmentTrieNode>
+                <HomePage>
+                  <div id="top">
+                    <Header>
+                    <main>
+                      <HeroSlider>
+                      <section>
+                      <section>
+                      <section>
+                      <section>
+                      <LatestNews>
+                        <section className="py-16 bg-b...">
+                          <div className="container ...">
+                            <h2>
+                            <p>
+                            <div className="grid grid-...">
+                              <LinkComponent>
+                                <LinkComponent href="/news">
+>                                 <a
+>                                   ref={function}
+>                                   onClick={function onClick}
+>                                   onMouseEnter={function onMouseEnter}
+>                                   onTouchStart={function onTouchStart}
+>                                   href="/news"
+>                                 >
+                                    <Card>
+                                      <div data-slot="card" className="bg-card te...">
+                                        <div>
+                                        <CardContent>
+                                          <div data-slot="card-content" className="p-6">
+                                            <p>
+                                            <h3>
+                                            <p>
+                                            <LinkComponent>
+                                              <LinkComponent href="/news" className="inline-fle...">
+>                                               <a
+>                                                 className="inline-flex items-center gap-1 text-primary font-semibold..."
+>                                                 ref={function}
+>                                                 onClick={function onClick}
+>                                                 onMouseEnter={function onMouseEnter}
+>                                                 onTouchStart={function onTouchStart}
+>                                                 href="/news"
+>                                               >
+                              ...
+                      ...
+                    ...
+              ...
+            ...
+
+[13:08:33.680] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[13:08:33.680] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765203271100}
+[13:08:37.501] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765203274920}
+[13:09:39.317] Server  LOG      ✓ Compiled in 93ms
+[13:09:45.209] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[13:09:45.209] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/contact","route":"/contact"}
+[13:09:45.209] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765203342629}
+[13:10:30.750] Server  LOG      ✓ Compiled in 65ms
+[13:11:37.001] Server  LOG      ✓ Compiled in 92ms
+[13:13:49.473] Server  LOG      ✓ Compiled in 56ms
+[13:14:25.187] Server  LOG      ✓ Compiled in 56ms
+[13:14:52.154] Server  LOG      ✓ Compiled in 59ms
+[13:15:02.867] Server  LOG      ✓ Compiled in 71ms
+[13:15:29.921] Server  LOG      ✓ Compiled in 58ms
+[13:16:04.250] Server  LOG      ✓ Compiled in 64ms
+[13:16:21.635] Server  LOG      ✓ Compiled in 55ms
+[13:16:52.938] Server  LOG      ✓ Compiled in 55ms
+[13:17:33.542] Server  LOG      ✓ Compiled in 59ms
+[13:21:09.433] Server  LOG      ✓ Compiled in 62ms
+[13:21:54.859] Server  LOG      ✓ Compiled in 63ms
+[13:22:26.859] Server  LOG      ✓ Compiled in 65ms
+[13:22:37.916] Server  LOG      ✓ Compiled in 61ms
+[13:23:04.627] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="page.tsx">
+                <SegmentTrieNode>
+                <HomePage>
+                  <div id="top">
+                    <Header>
+                    <main>
+                      <HeroSlider>
+                      <section>
+                      <section>
+                      <section>
+                      <section>
+                      <LatestNews>
+                        <section className="py-16 bg-b...">
+                          <div className="container ...">
+                            <h2>
+                            <p>
+                            <div className="grid grid-...">
+                              <LinkComponent>
+                                <LinkComponent href="/news">
+>                                 <a
+>                                   ref={function}
+>                                   onClick={function onClick}
+>                                   onMouseEnter={function onMouseEnter}
+>                                   onTouchStart={function onTouchStart}
+>                                   href="/news"
+>                                 >
+                                    <Card>
+                                      <div data-slot="card" className="bg-card te...">
+                                        <div>
+                                        <CardContent>
+                                          <div data-slot="card-content" className="p-6">
+                                            <p>
+                                            <h3>
+                                            <p>
+                                            <LinkComponent>
+                                              <LinkComponent href="/news" className="inline-fle...">
+>                                               <a
+>                                                 className="inline-flex items-center gap-1 text-primary font-semibold..."
+>                                                 ref={function}
+>                                                 onClick={function onClick}
+>                                                 onMouseEnter={function onMouseEnter}
+>                                                 onTouchStart={function onTouchStart}
+>                                                 href="/news"
+>                                               >
+                              ...
+                      ...
+                    ...
+              ...
+            ...
+
+[13:23:04.627] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[13:23:04.627] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[13:23:04.627] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765204142044}
+[13:23:08.600] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/news color: rgb(120, 120, 120) color: inherit {"dp":"/news","o":"http://localhost:3000/news","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765204146019}
+[13:23:09.132] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765204146550}
+[13:23:09.520] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/give color: rgb(120, 120, 120) color: inherit {"dp":"/give","o":"http://localhost:3000/give","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765204146940}
+[13:23:12.249] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765204149667}
+[13:29:08.933] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765204506345}
+[13:29:14.050] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/news color: rgb(120, 120, 120) color: inherit {"dp":"/news","o":"http://localhost:3000/news","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765204511463}
+[13:29:15.032] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/events color: rgb(120, 120, 120) color: inherit {"dp":"/events","o":"http://localhost:3000/events","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765204512446}
+[13:29:15.635] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/news color: rgb(120, 120, 120) color: inherit {"dp":"/news","o":"http://localhost:3000/news","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765204513049}
+[13:29:18.701] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765204516115}

@@ -9,8 +9,10 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
-import { MapPin, Mail, Phone, Clock } from "lucide-react"
+import { MapPin, Mail, Phone, Clock, Link as LinkIcon } from "lucide-react"
 import { useState } from "react"
+import Link from "next/link"
+import { Flag, Menu, X, ChevronDown, Facebook, Twitter, Instagram, Search } from "lucide-react"
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -41,7 +43,8 @@ export default function ContactPage() {
         {/* Contact Info & Form */}
         <section className="py-16 bg-background">
           <div className="container mx-auto px-4">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
+            {/*<div className="grid grid-cols-1 lg:grid-cols-2 gap-12 max-w-6xl mx-auto">*/}
+            <div className="grid grid-cols-1 lg:grid-cols-1 gap-12 max-w-6xl mx-auto">
               {/* Contact Details */}
               <div>
                 <h2 className="text-3xl font-bold mb-8">
@@ -82,20 +85,6 @@ export default function ContactPage() {
                   <Card>
                     <CardContent className="p-6 flex items-start gap-4">
                       <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center shrink-0">
-                        <Phone className="h-6 w-6 text-primary-foreground" />
-                      </div>
-                      <div>
-                        <h3 className="font-bold text-foreground mb-1">24 Hour Prayer Line</h3>
-                        <a href="tel:1-423-559-5100" className="text-primary hover:underline">
-                          1.423.559.5100
-                        </a>
-                      </div>
-                    </CardContent>
-                  </Card>
-
-                  <Card>
-                    <CardContent className="p-6 flex items-start gap-4">
-                      <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center shrink-0">
                         <Clock className="h-6 w-6 text-primary-foreground" />
                       </div>
                       <div>
@@ -110,10 +99,65 @@ export default function ContactPage() {
                       </div>
                     </CardContent>
                   </Card>
+
+                  <Card>
+                    <CardContent className="p-6 flex items-start gap-4">
+                      <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center shrink-0">
+                        <Phone className="h-6 w-6 text-primary-foreground" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-foreground mb-1">24 Hour Prayer Line</h3>
+                        <a href="tel:1-423-559-5100" className="text-primary hover:underline">
+                          1.423.559.5100
+                        </a>
+                      </div>
+                    </CardContent>
+                  </Card>
+
+                  <Card>
+                    <CardContent className="p-6 flex items-start gap-4">
+                      <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center shrink-0">
+                        <Flag className="h-6 w-6 text-primary-foreground" />
+                      </div>
+                      <div>
+                        <h3 className="font-bold text-foreground mb-1">Follow Us</h3>
+                        <div className="hidden md:flex items-center gap-2">
+                        <Link
+                          href="https://facebook.com/riverrougecogop"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-secondary transition-colors"
+                        >
+                          <Facebook className="h-10 w-10" />
+                        </Link>
+                        <Link
+                          href="https://twitter.com/riverrougecogop"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-secondary transition-colors"
+                        >
+                          <Twitter className="h-10 w-10" />
+                        </Link>
+                        <Link
+                          href="https://instagram.com/riverrougecogop"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="hover:text-secondary transition-colors"
+                        >
+                          <Instagram className="h-10 w-10" />
+                        </Link></div>
+                      </div>
+                    </CardContent>
+                  </Card>
+
+                  
+
+  
                 </div>
               </div>
 
               {/* Contact Form */}
+              {/*
               <div>
                 <h2 className="text-3xl font-bold mb-8">
                   Send Us A <span className="text-primary">Message</span>
@@ -172,7 +216,7 @@ export default function ContactPage() {
                     </form>
                   </CardContent>
                 </Card>
-              </div>
+              </div>*/}
             </div>
           </div>
         </section>

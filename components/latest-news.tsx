@@ -28,12 +28,6 @@ export function LatestNews() {
                   {item.title}
                 </h3>
                 <p className="text-sm text-muted-foreground mb-4 line-clamp-2">{item.description}</p>
-                <Link
-                  href="/news"
-                  className="inline-flex items-center gap-1 text-primary font-semibold text-sm hover:gap-2 transition-all"
-                >
-                  DETAILS <ArrowRight className="h-4 w-4" />
-                </Link>
               </CardContent>
             </Card>
             </Link>

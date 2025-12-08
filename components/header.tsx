@@ -79,13 +79,13 @@ export function Header() {
             ))}
           </nav>
           <div className="flex items-center gap-2">
-            <Button
+            {/*<Button
               variant="ghost"
               size="icon"
               className="text-primary-foreground hover:text-secondary hover:bg-transparent"
             >
               <Search className="h-4 w-4" />
-            </Button>
+            </Button>*/}
             <div className="hidden md:flex items-center gap-2">
               <Link
                 href="https://facebook.com/riverrougecogop"
