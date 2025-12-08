@@ -60,4 +60,4 @@ To add, edit, or remove news items or announcements:
 This site is hosted on **Vercel** and uses its seamless integration with Git.
 
 * **Deployment Flow:** Any push to the `main` branch automatically triggers a new build and deployment on Vercel.
-* **Live URL:** [Insert the live URL here]
+* **Live URL:** http://riverrougecogop.com
