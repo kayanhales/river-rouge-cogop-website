@@ -1,0 +1,367 @@
+[00:00:00.533] Server  LOG      ✓ Ready in 316ms
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:16.738] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/. Falling back to browser navigation. {}
+[00:00:17.108] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="page.tsx">
+                <SegmentTrieNode>
+                <HomePage>
+                  <div id="top">
+                    <Header>
+                    <main>
+                      <HeroSlider>
+                      <section>
+                      <section>
+                      <section>
+                      <section>
+                      <LatestNews>
+                        <section className="py-16 bg-b...">
+                          <div className="container ...">
+                            <h2>
+                            <p>
+                            <div className="grid grid-...">
+                              <LinkComponent>
+                                <LinkComponent href="/news">
+>                                 <a
+>                                   ref={function}
+>                                   onClick={function onClick}
+>                                   onMouseEnter={function onMouseEnter}
+>                                   onTouchStart={function onTouchStart}
+>                                   href="/news"
+>                                 >
+                                    <Card>
+                                      <div data-slot="card" className="bg-card te...">
+                                        <div>
+                                        <CardContent>
+                                          <div data-slot="card-content" className="p-6">
+                                            <p>
+                                            <h3>
+                                            <p>
+                                            <LinkComponent>
+                                              <LinkComponent href="/news" className="inline-fle...">
+>                                               <a
+>                                                 className="inline-flex items-center gap-1 text-primary font-semibold..."
+>                                                 ref={function}
+>                                                 onClick={function onClick}
+>                                                 onMouseEnter={function onMouseEnter}
+>                                                 onTouchStart={function onTouchStart}
+>                                                 href="/news"
+>                                               >
+                              ...
+                      ...
+                    ...
+              ...
+            ...
+
+[00:00:17.108] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:00:17.108] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <HomePage>
+                <div id="top">
+                  <Header>
+                  <main>
+                    <HeroSlider>
+                    <section>
+                    <section>
+                    <section>
+                    <section>
+                    <LatestNews>
+                      <section className="py-16 bg-b...">
+                        <div className="container ...">
+                          <h2>
+                          <p>
+                          <div className="grid grid-...">
+                            <LinkComponent>
+                              <LinkComponent href="/news">
+                                <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                  <Card>
++                                   <div
++                                     data-slot="card"
++                                     className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py..."
++                                   >
+                            ...
+                    ...
+                  ...
+            ...
+          ...
+
+[00:00:17.108] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:17.108] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:17.108] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:17.108] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155974484}
+[00:00:17.108] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155974484}
+[00:00:18.712] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="page.tsx">
+                <SegmentTrieNode>
+                <HomePage>
+                  <div id="top">
+                    <Header>
+                    <main>
+                      <HeroSlider>
+                      <section>
+                      <section>
+                      <section>
+                      <section>
+                      <LatestNews>
+                        <section className="py-16 bg-b...">
+                          <div className="container ...">
+                            <h2>
+                            <p>
+                            <div className="grid grid-...">
+                              <LinkComponent>
+                                <LinkComponent href="/news">
+>                                 <a
+>                                   ref={function}
+>                                   onClick={function onClick}
+>                                   onMouseEnter={function onMouseEnter}
+>                                   onTouchStart={function onTouchStart}
+>                                   href="/news"
+>                                 >
+                                    <Card>
+                                      <div data-slot="card" className="bg-card te...">
+                                        <div>
+                                        <CardContent>
+                                          <div data-slot="card-content" className="p-6">
+                                            <p>
+                                            <h3>
+                                            <p>
+                                            <LinkComponent>
+                                              <LinkComponent href="/news" className="inline-fle...">
+>                                               <a
+>                                                 className="inline-flex items-center gap-1 text-primary font-semibold..."
+>                                                 ref={function}
+>                                                 onClick={function onClick}
+>                                                 onMouseEnter={function onMouseEnter}
+>                                                 onTouchStart={function onTouchStart}
+>                                                 href="/news"
+>                                               >
+                              ...
+                      ...
+                    ...
+              ...
+            ...
+
+[00:00:18.712] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:00:18.712] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <HomePage>
+                <div id="top">
+                  <Header>
+                  <main>
+                    <HeroSlider>
+                    <section>
+                    <section>
+                    <section>
+                    <section>
+                    <LatestNews>
+                      <section className="py-16 bg-b...">
+                        <div className="container ...">
+                          <h2>
+                          <p>
+                          <div className="grid grid-...">
+                            <LinkComponent>
+                              <LinkComponent href="/news">
+                                <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                  <Card>
++                                   <div
++                                     data-slot="card"
++                                     className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py..."
++                                   >
+                            ...
+                    ...
+                  ...
+            ...
+          ...
+
+[00:00:18.712] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:18.712] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:18.712] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:18.712] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155976088}
+[00:00:18.712] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155976088}
+[00:00:30.857] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="page.tsx">
+                <SegmentTrieNode>
+                <HomePage>
+                  <div id="top">
+                    <Header>
+                    <main>
+                      <HeroSlider>
+                      <section>
+                      <section>
+                      <section>
+                      <section>
+                      <LatestNews>
+                        <section className="py-16 bg-b...">
+                          <div className="container ...">
+                            <h2>
+                            <p>
+                            <div className="grid grid-...">
+                              <LinkComponent>
+                                <LinkComponent href="/news">
+>                                 <a
+>                                   ref={function}
+>                                   onClick={function onClick}
+>                                   onMouseEnter={function onMouseEnter}
+>                                   onTouchStart={function onTouchStart}
+>                                   href="/news"
+>                                 >
+                                    <Card>
+                                      <div data-slot="card" className="bg-card te...">
+                                        <div>
+                                        <CardContent>
+                                          <div data-slot="card-content" className="p-6">
+                                            <p>
+                                            <h3>
+                                            <p>
+                                            <LinkComponent>
+                                              <LinkComponent href="/news" className="inline-fle...">
+>                                               <a
+>                                                 className="inline-flex items-center gap-1 text-primary font-semibold..."
+>                                                 ref={function}
+>                                                 onClick={function onClick}
+>                                                 onMouseEnter={function onMouseEnter}
+>                                                 onTouchStart={function onTouchStart}
+>                                                 href="/news"
+>                                               >
+                              ...
+                      ...
+                    ...
+              ...
+            ...
+
+[00:00:30.857] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:00:30.857] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.tsx">
+              <SegmentTrieNode>
+              <HomePage>
+                <div id="top">
+                  <Header>
+                  <main>
+                    <HeroSlider>
+                    <section>
+                    <section>
+                    <section>
+                    <section>
+                    <LatestNews>
+                      <section className="py-16 bg-b...">
+                        <div className="container ...">
+                          <h2>
+                          <p>
+                          <div className="grid grid-...">
+                            <LinkComponent>
+                              <LinkComponent href="/news">
+                                <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                                  <Card>
++                                   <div
++                                     data-slot="card"
++                                     className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py..."
++                                   >
+                            ...
+                    ...
+                  ...
+            ...
+          ...
+
+[00:00:30.857] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:30.857] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:30.857] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:30.857] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155988233}
+[00:00:30.857] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765155988233}
+[00:01:08.993] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:08.993] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/news","route":"/news"}
+[00:01:08.993] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/news color: rgb(120, 120, 120) color: inherit {"dp":"/news","o":"http://localhost:3000/news","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765156026367}
