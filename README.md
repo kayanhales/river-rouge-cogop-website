@@ -55,11 +55,11 @@ To add, edit, or remove news items or announcements:
 * Place all new images in the **`/public`** directory.
 * When referencing an image in a component or data file, use a path relative to the `/public` directory (e.g., `/images/my-new-photo.jpg`).
 
-## Updating the Homepage
+### Updating the Homepage
 
 Edit the .tsx files under 'components' for the homepage
 
-## Updating the subpages
+### Updating the subpages
 
 Edit the .tsx files under 'app' for the subpages such as 'About' or 'Ministries'
 
