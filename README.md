@@ -16,8 +16,8 @@ You must have [Node.js](https://nodejs.org/) installed on your machine.
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [YOUR_REPO_URL]
-    cd [YOUR_REPO_NAME]
+    git clone https://github.com/kayanhales/river-rouge-cogop-website
+    cd river-rouge-cogop-website
     ```
 2.  **Install Dependencies:**
     ```bash
@@ -54,6 +54,14 @@ To add, edit, or remove news items or announcements:
 
 * Place all new images in the **`/public`** directory.
 * When referencing an image in a component or data file, use a path relative to the `/public` directory (e.g., `/images/my-new-photo.jpg`).
+
+## Updating the Homepage
+
+Edit the .tsx files under 'components' for the homepage
+
+## Updating the subpages
+
+Edit the .tsx files under 'app' for the subpages such as 'About' or 'Ministries'
 
 ## Deployment
 
