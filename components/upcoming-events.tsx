@@ -46,6 +46,7 @@ export function UpcomingEvents() {
             </Link>
           ))}
         </div>
+        
         <div className="text-center mt-4">
           <Button asChild>
             <Link href="/events">View All Events</Link>

@@ -3,12 +3,14 @@ import Link from "next/link"
 import { ArrowRight } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { news } from "./data/news"
+import { Button } from "./ui/button"
 
 const latestNews = news.slice(0, 3);
 
 export function LatestNews() {
   return (
     <section className="py-16 bg-background">
+      
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
           Latest <span className="text-primary">News</span>
@@ -32,6 +34,12 @@ export function LatestNews() {
             </Card>
             </Link>
           ))}
+        </div>
+
+        <div className="text-center mt-4">
+          <Button asChild>
+            <Link href="/news">View All News</Link>
+          </Button>
         </div>
       </div>
     </section>
