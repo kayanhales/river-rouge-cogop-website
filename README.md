@@ -57,15 +57,15 @@ To add, edit, or remove news items or announcements:
 
 ### Updating the Homepage
 
-Edit the .tsx files under 'components' for the homepage
+Edit the `.tsx` files under `components` for the homepage
 
 ### Updating the subpages
 
-Edit the .tsx files under 'app' for the subpages such as 'About' or 'Ministries'
+Edit the `.tsx` files under `app` for the subpages such as `About` or `Ministries`.
 
 ## Deployment
 
 This site is hosted on **Vercel** and uses its seamless integration with Git.
 
-* **Deployment Flow:** Any push to the `main` branch automatically triggers a new build and deployment on Vercel.
+* **Deployment Flow:** Fork the repo and make changes. Commit & push your branch and create a pull request. The owner (Kayan Hales) will vet, approve and merge to `main`. Any push to the `main` branch automatically triggers a new build and deployment on Vercel.
 * **Live URL:** http://riverrougecogop.com
