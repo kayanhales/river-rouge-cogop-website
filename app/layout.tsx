@@ -3,6 +3,7 @@ import type { Metadata } from "next"
 import { Open_Sans, Playfair_Display } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
+import Script from 'next/script' // Import the Script component
 
 const openSans = Open_Sans({ subsets: ["latin"], variable: "--font-open-sans" })
 const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" })
@@ -22,6 +23,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head><script type="text/javascript" src="https://js-cdn.dynatracelabs.com/jstag/145e049b9b1/bf87596tma/e4afab2c41901922_complete.js" crossOrigin="anonymous"></script>
+        </head>
       <body className={`${openSans.variable} ${playfair.variable} font-sans antialiased`}>
         {children}
         <Analytics />
